@@ -62,9 +62,9 @@ def snakes_cafe():
                # incremnet the chosen order
              items[selected]=items[selected]+1
              counter+=1
-             print (f"{items[selected]} order of {selected} have been added to your meal")
+             print (f"** {items[selected]} order of {selected} have been added to your meal **")
              print("")
-             print(f"Number of orders {counter}")
+             print(f"Number of orders: {counter}")
              selected=input(" would you like to order more? If yes tell me please ").lower()
              if selected=="quit":
                break
