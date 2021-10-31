@@ -3,4 +3,4 @@
 [Deployed URL](https://github.com/issasalman/snakes-cafe)
 
 ## PR on submission branch
-[PR]()
+[PR](https://github.com/issasalman/snakes-cafe/pull/1)
