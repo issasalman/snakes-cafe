@@ -53,7 +53,7 @@ def snakes_cafe():
     print("**  What would you like to order?   **")
     print("**************************************")
     
-    selected=input()
+    selected=input("> ")
     selected=selected.lower()
     counter=0
     while selected !="quit":
@@ -65,7 +65,7 @@ def snakes_cafe():
              print (f"** {items[selected]} order of {selected} have been added to your meal **")
              print("")
              print(f"Number of orders: {counter}")
-             selected=input(" would you like to order more? If yes tell me please ").lower()
+             selected=input(" would you like to order more? If yes tell me please > ").lower()
              if selected=="quit":
                break
              else:
@@ -73,7 +73,7 @@ def snakes_cafe():
             #Here if the user ordered something doesn't exist 
            else:
                print("Sorry We don't have your order now ")
-               selected=input(" would you like to order more? If yes tell me please If no just quit ").lower()
+               selected=input(" would you like to order more? If yes tell me please If no just quit > ").lower()
                if selected=="quit":
                 break
                else:
